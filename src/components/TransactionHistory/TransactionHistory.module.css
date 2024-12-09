@@ -1,0 +1,43 @@
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: inherit;
+}
+
+th,
+td {
+    padding: 0;
+    vertical-align: top;
+}
+
+.transactionTable {
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.tableHead {
+    font-size: 18px;
+    letter-spacing: 0.04em;
+    padding: 8px 0;
+    color: white;
+    background-color: #515151;
+    border: 1px solid black;
+}
+
+.tableLine:nth-child(odd) {
+    background-color: white;
+}
+
+.tableLine:nth-child(even) {
+    background-color: #A0A0A0;
+}
+
+.tableBody {
+    text-align: center;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px;
+    border: 1px solid black;
+}
